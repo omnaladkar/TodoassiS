@@ -28,7 +28,7 @@ export const DeleteTaskButton = ({ id }: DeleteTaskButtonProps) => {
           fontWeight: 'bold'
         }}
       >
-        Deletar
+        Delete
       </Text>
     </TouchableOpacity>
   )

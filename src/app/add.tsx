@@ -18,10 +18,10 @@ const AddTodoScreen = () => {
     <SafeAreaView 
       style={{ flex: 1, justifyContent: "space-between", padding: 32, gap: 64, backgroundColor: '#181818'}}
     >
-      <Input placeholder="Insira o título da sua tarefa" value={title} onChangeText={(e) => setTitle(e)} />
+      <Input placeholder="Enter your task title" value={title} onChangeText={(e) => setTitle(e)} />
       <TouchableOpacity onPress={handleAddTodo} style={{ backgroundColor: '#6200ea', padding: 12, display: 'flex', alignItems: 'center', borderRadius: 4 }}>
         <Text style={{ color: '#FFF', fontWeight: 600 }}>
-          Adicionar
+          To Add
         </Text>
       </TouchableOpacity>
     </SafeAreaView>

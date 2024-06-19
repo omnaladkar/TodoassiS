@@ -37,8 +37,8 @@ export default function Index() {
   return (
     <SafeAreaView style={{ flex: 1, justifyContent: "space-between", padding: 32, gap: 64, backgroundColor: '#181818'}}>
       <View style={{ gap: 12 }}>
-        <Input placeholder="Pesquise pela sua tarefa..." value={search} onChangeText={(e) => handleSearch(e)}/>
-        <Text style={{ color: '#363636', textAlign: 'center'}}>Double tap conclui a tarefa. Arraste para deletar.</Text>
+        <Input placeholder="Search for your task." value={search} onChangeText={(e) => handleSearch(e)}/>
+        <Text style={{ color: '#363636', textAlign: 'center'}}>Double tap completes the task. Drag to delete.</Text>
       </View>
       <FlatList
         data={filteredAndSortedTasks}
